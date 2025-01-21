@@ -1,6 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { StyleSheet, View, Text, Button } from 'react-native';
 import { CameraView, useCameraPermissions } from 'expo-camera';
+
 
 
 export default function Home() {

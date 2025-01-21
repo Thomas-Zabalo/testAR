@@ -8,6 +8,10 @@ import HomeScreen from './src/pages/HomeScreen';
 import SplashScreen from './src/pages/SplashScreen';
 import Introslider from './src/pages/Introslider';
 
+import { enableScreens } from 'react-native-screens';
+import 'react-native-gesture-handler';
+
+enableScreens();
 
 const Stack = createStackNavigator();
 
